@@ -1,10 +1,4 @@
 {
-  "scripts": {
-    "layer0:dev": "layer0 dev",
-    "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy"
-  },
-  "name": "redwood-stripe",
   "private": true,
   "workspaces": {
     "packages": [
@@ -14,11 +8,6 @@
     ]
   },
   "devDependencies": {
-    "@layer0/cli": "latest",
-    "@layer0/core": "latest",
-    "@layer0/devtools": "latest",
-    "@layer0/prefetch": "latest",
-    "@layer0/redwood": "latest",
     "@redwoodjs/core": "^2.1.0"
   },
   "eslintConfig": {
